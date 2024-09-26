@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<europa>
+    <pais1>
+        <poblacion></poblacion>
+        <capital></capital>
+        <superficie></superficie>
+    </pais1>
+    <pais2>
+        <poblacion></poblacion>
+        <capital></capital>
+        <superficie></superficie>
+    </pais2>
+    <pais3>
+        <poblacion></poblacion>
+        <capital></capital>
+        <superficie></superficie>
+    </pais3>
+    <pais4>
+        <poblacion></poblacion>
+        <capital></capital>
+        <superficie></superficie>
+    </pais4>
+</europa>
