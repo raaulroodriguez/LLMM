@@ -12,5 +12,7 @@
             <macho>19 a 22 kg</macho>
             <hembra>14 a 19 kg</hembra>
         </peso>
+        <pelaje></pelaje>
+        <esperanza_de_vida></esperanza_de_vida>
     </raza>
 </perro>
