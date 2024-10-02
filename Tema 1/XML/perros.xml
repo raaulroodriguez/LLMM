@@ -12,7 +12,40 @@
             <macho>19 a 22 kg</macho>
             <hembra>14 a 19 kg</hembra>
         </peso>
-        <pelaje></pelaje>
-        <esperanza_de_vida></esperanza_de_vida>
+        <pelaje>Rizado y lanoso</pelaje>
+        <caracter>Cariñoso y protector</caracter>
+        <esperanza_de_vida>De 10 a 15 años</esperanza_de_vida>
+    </raza>
+    <raza>
+        <nombre>Rottweiler</nombre>
+        <abreviatura>ROTTIE</abreviatura>
+        <origen>Alemania</origen>
+        <tamanio>
+            <macho>55 a 70 cm</macho>
+            <hembra>55 a 70 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>45 a 50 kg</macho>
+            <hembra>45 a 50 kg</hembra>
+        </peso>
+        <pelaje>Corto, liso y fino</pelaje>
+        <caracter>Activo y dominante</caracter>
+        <esperanza_de_vida>De 10 a 12 años</esperanza_de_vida>
+    </raza>
+    <raza>
+        <nombre>Pastor Aleman</nombre>
+        <abreviatura>PA</abreviatura>
+        <origen>Alemania</origen>
+        <tamanio>
+            <macho>55 a 70 cm</macho>
+            <hembra>55 a 70 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>25 a 45 kg</macho>
+            <hembra>25 a 45 kg</hembra>
+        </peso>
+        <pelaje>Largo</pelaje>
+        <caracter>Sociable y fuerte</caracter>
+        <esperanza_de_vida>De 8 a 10 años</esperanza_de_vida>
     </raza>
 </perro>
