@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
     
-<hecho descripcion="IBM da a conocer el PC">
-    <fecha>
-        <dia>12</dia>
-        <mes>8</mes>
-        <ano>1981</ano>
-    </fecha>
-</hecho>
-<hecho1 descripcion="Se funda Google">
-    <fecha>
-        <dia>4</dia>
-        <mes>9</mes>
-        <ano>1998</ano>
-    </fecha>
-</hecho1>
-<hecho2 descripcion="Se funda Facebook">
-    <fecha>
-        <dia>4</dia>
-        <mes>2</mes>
-        <ano>2004</ano>
-    </fecha>
-</hecho2>
+<hechosHistoricos>
+    <hecho descripcion="IBM da a conocer el PC.">
+        <fecha>
+            <dia>12</dia>
+            <mes>8</mes>
+            <anio>1981</anio>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Google.">
+        <fecha>
+            <dia>4</dia>
+            <mes>9</mes>
+            <anio>1998</anio>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Facebook.">
+        <fecha>
+            <dia>4</dia>
+            <mes>2</mes>
+            <anio>2004</anio>
+        </fecha>
+    </hecho>
+</hechosHistoricos>
