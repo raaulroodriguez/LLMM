@@ -10,6 +10,10 @@
         <genero>Ficcion</genero>
         <idioma>Español</idioma>
         <sinopsis>Una obra maestra del realismo mágico que narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo, explorando temas de soledad, poder y destino.</sinopsis>
+        <comentarios>
+            <comentario user="usuario1">Esto es un comentario</comentario>
+            <comentario user="usuario2">Esto es otro comentario</comentario>
+        </comentarios>
     </libro>
     <libro>
         <titulo>Sapiens: De animales a dioses</titulo>
