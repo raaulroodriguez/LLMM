@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedidos>
+    <pedido codigo = "1111">
+        <destinatario>José Antonio Lojo</destinatario>
+        <articulo>Bicicleta A2020</articulo>
+        <direccion>Calle Barco 4, tercer psio, letra A</direccion>
+        <fecha_entrega>20-9-2019</fecha_entrega>
+    </pedido> 
+</pedidos>

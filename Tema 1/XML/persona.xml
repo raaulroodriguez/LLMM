@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<personas>
+    <persona>
+        <nombre>Raúl Rodríguez</nombre>
+        <fecha_nacimiento>
+            <dia>22</dia>
+            <mes>12</mes>
+            <anio>2005</anio>
+        </fecha_nacimiento>
+        <ciudad>Málaga</ciudad>
+    </persona>
+    <persona>
+        <nombre>Ramon Martín</nombre>
+        <fecha_nacimiento>
+            <dia>16</dia>
+            <mes>10</mes>
+            <anio>2006</anio>
+        </fecha_nacimiento>
+        <ciudad>Málaga</ciudad>
+    </persona>
+</personas>
