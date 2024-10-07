@@ -16,15 +16,9 @@
                 <email:asunto>Reunión</email:asunto>
                 <email:cuerpo>Hola María, ¿podemos reunirnos mañana?</email:cuerpo>
             </email:correo>
-            <email:correo>
-                <email:remitente>maria.lopez@example.com</email:remitente>
-                <email:destinatario>juan.perez@example.com</email:destinatario>
-                <email:asunto>Re: Reunión</email:asunto>
-                <email:cuerpo>Hola Juan, claro que sí. ¿A las 10:00?</email:cuerpo>
-            </email:correo>
         </email:bandeja>
     </agenda:contacto>
-    
+
     <agenda:contacto>
         <agenda:nombre>María López</agenda:nombre>
         <agenda:emails>
@@ -34,12 +28,6 @@
             <agenda:telefono>+34 600 654 321</agenda:telefono>
         </agenda:telefonos>
         <email:bandeja>
-            <email:correo>
-                <email:remitente>juan.perez@example.com</email:remitente>
-                <email:destinatario>maria.lopez@example.com</email:destinatario>
-                <email:asunto>Reunión</email:asunto>
-                <email:cuerpo>Hola María, ¿podemos reunirnos mañana?</email:cuerpo>
-            </email:correo>
             <email:correo>
                 <email:remitente>maria.lopez@example.com</email:remitente>
                 <email:destinatario>juan.perez@example.com</email:destinatario>
