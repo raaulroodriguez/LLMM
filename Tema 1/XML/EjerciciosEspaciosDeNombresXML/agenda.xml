@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<agenda:agenda xmlns:agenda="http://www.ejemplo.com/agenda" xmlns:email="http://www.ejemplo.com/correo">
-    <agenda:contacto>
-        <agenda:nombre>Juan Pérez</agenda:nombre>
-        <agenda:emails>
-            <agenda:email>juan.perez@example.com</agenda:email>
-        </agenda:emails>
-        <agenda:telefonos>
-            <agenda:telefono>+34 600 123 456</agenda:telefono>
-        </agenda:telefonos>
+<age:agenda xmlns:age="http://www.ejemplo.com/agenda" xmlns:email="http://www.ejemplo.com/correo">
+    <age:contacto>
+        <age:nombre>Juan Pérez</age:nombre>
+        <age:emails>
+            <age:email>juan.perez@example.com</age:email>
+        </age:emails>
+        <age:telefonos>
+            <age:telefono>+34 600 123 456</age:telefono>
+        </age:telefonos>
         <email:bandeja>
             <email:correo>
                 <email:remitente>juan.perez@example.com</email:remitente>
@@ -17,16 +17,16 @@
                 <email:cuerpo>Hola María, ¿podemos reunirnos mañana?</email:cuerpo>
             </email:correo>
         </email:bandeja>
-    </agenda:contacto>
+    </age:contacto>
 
-    <agenda:contacto>
-        <agenda:nombre>María López</agenda:nombre>
-        <agenda:emails>
-            <agenda:email>maria.lopez@example.com</agenda:email>
-        </agenda:emails>
-        <agenda:telefonos>
-            <agenda:telefono>+34 600 654 321</agenda:telefono>
-        </agenda:telefonos>
+    <age:contacto>
+        <age:nombre>María López</age:nombre>
+        <age:emails>
+            <age:email>maria.lopez@example.com</age:email>
+        </age:emails>
+        <age:telefonos>
+            <age:telefono>+34 600 654 321</age:telefono>
+        </age:telefonos>
         <email:bandeja>
             <email:correo>
                 <email:remitente>maria.lopez@example.com</email:remitente>
@@ -35,5 +35,5 @@
                 <email:cuerpo>Hola Juan, claro que sí. ¿A las 10:00?</email:cuerpo>
             </email:correo>
         </email:bandeja>
-    </agenda:contacto>
-</agenda:agenda>
+    </age:contacto>
+</age:agenda>
