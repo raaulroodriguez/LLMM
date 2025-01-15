@@ -1,0 +1,10 @@
+{
+  "nombre_empresa": "Belen",
+  "datos_empresa": {
+    "direccion": "Calle Isaac Peral, Malaga",
+    "telefono": "+34 611 212 712",
+    "email": "contacto@belen.com"
+  },
+  "numero_empleados": 50,
+  "deudas": true
+}
