@@ -1,0 +1,76 @@
+{
+  "estudiantes": [
+    {
+      "nombre_titulacion": "Ingeniería Informática",
+      "nombre": {
+        "nombre": "Juan",
+        "apellido": "García"
+      },
+      "email": "juangarcia@gmail.com",
+      "repite": false,
+      "nombre_amigos": ["Pedro", "Luis", "Ana"],
+      "asignaturas": [
+        {
+          "nombre": "Programación",
+          "nota": 8
+        },
+        {
+          "nombre": "Álgebra",
+          "nota": 6
+        },
+        {
+          "nombre": "Cálculo",
+          "nota": 7
+        }
+      ]
+    },
+    {
+      "nombre_titulacion": "Ingeniería Informática",
+      "nombre": {
+        "nombre": "Pedro",
+        "apellido": "Jiménez"
+      },
+      "email": "pedrojimenez@gmail.com",
+      "repite": true,
+      "nombre_amigos": ["Juan", "Luis", "Ana"],
+      "asignaturas": [
+        {
+          "nombre": "Programación",
+          "nota": 3
+        },
+        {
+          "nombre": "Álgebra",
+          "nota": 4
+        },
+        {
+          "nombre": "Cálculo",
+          "nota": 2
+        }
+      ]
+    },
+    {
+      "nombre_titulacion": "Ingeniería Informática",
+      "nombre": {
+        "nombre": "Ana",
+        "apellido": "Fernández"
+      },
+      "email": "anafernandez@gmail.com",
+      "repite": false,
+      "nombre_amigos": ["Pedro", "Luis", "Juan"],
+      "asignaturas": [
+        {
+          "nombre": "Programación",
+          "nota": 5
+        },
+        {
+          "nombre": "Álgebra",
+          "nota": 5
+        },
+        {
+          "nombre": "Cálculo",
+          "nota": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "apellidos_viajero": "García",
+  "nomre_viajero": "Juan",
+  "datos_de_contacto": {
+    "correo_electronico": "juangarcia@gmail.com",
+    "telefono": "123456789"
+  },
+  "ciudad_origen": "Madrid",
+  "nombres_acompañantes": ["María", "Pedro"],
+  "gastos_total": 1000,
+  "relacion_destinos": [
+    {
+      "satisfecho": true,
+      "ciudad": "Barcelona",
+      "hotel": {
+        "nombre": "Hotel Barcelona",
+        "estrellas": 4,
+        "precio_noche": 100,
+        "numero_noches": 5
+      }
+    },
+    {
+      "satisfecho": false,
+      "ciudad": "Valencia",
+      "hotel": {
+        "nombre": "Hotel Valencia",
+        "estrellas": 3,
+        "precio_noche": 80,
+        "numero_noches": 3
+      }
+    }
+  ]
+}
