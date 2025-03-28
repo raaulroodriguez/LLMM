@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buscar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  width: 20%;
+}
+
+.buscar input {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.buscar button {
+  cursor: pointer;
+}
+
+.tabla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+table {
+  width: 30%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<age:agenda xmlns:age="http://www.ejemplo.com/agenda" xmlns:email="http://www.ejemplo.com/correo">
+    <age:contacto>
+        <age:nombre>Juan Pérez</age:nombre>
+        <age:emails>
+            <age:email>juan.perez@example.com</age:email>
+        </age:emails>
+        <age:telefonos>
+            <age:telefono>+34 600 123 456</age:telefono>
+        </age:telefonos>
+        <email:bandeja>
+            <email:correo>
+                <email:remitente>juan.perez@example.com</email:remitente>
+                <email:destinatario>maria.lopez@example.com</email:destinatario>
+                <email:asunto>Reunión</email:asunto>
+                <email:cuerpo>Hola María, ¿podemos reunirnos mañana?</email:cuerpo>
+            </email:correo>
+        </email:bandeja>
+    </age:contacto>
+
+    <age:contacto>
+        <age:nombre>María López</age:nombre>
+        <age:emails>
+            <age:email>maria.lopez@example.com</age:email>
+        </age:emails>
+        <age:telefonos>
+            <age:telefono>+34 600 654 321</age:telefono>
+        </age:telefonos>
+        <email:bandeja>
+            <email:correo>
+                <email:remitente>maria.lopez@example.com</email:remitente>
+                <email:destinatario>juan.perez@example.com</email:destinatario>
+                <email:asunto>Re: Reunión</email:asunto>
+                <email:cuerpo>Hola Juan, claro que sí. ¿A las 10:00?</email:cuerpo>
+            </email:correo>
+        </email:bandeja>
+    </age:contacto>
+</age:agenda>

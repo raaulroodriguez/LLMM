@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Búsqueda PelÍculas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Busqueda de películas</h1>
+      <div class="buscar">
+        <input type="text" id="buscador" placeholder="Buscar pelÍcula" />
+        <button id="btn" type="button">Buscar pelÍcula</button>
+      </div>
+      <div class="tabla">
+        <table>
+          <tr>
+            <th>Titulo</th>
+            <td id="titulo"></td>
+          </tr>
+          <tr>
+            <th>Año</th>
+            <td id="anyo"></td>
+          </tr>
+          <tr>
+            <th>Duración</th>
+            <td id="duracion"></td>
+          </tr>
+          <tr>
+            <th>Director</th>
+            <td id="director"></td>
+          </tr>
+          <tr>
+            <th>Valoración</th>
+            <td>
+              <select name="valoracion" id="valoracion">
+                <option value="medio" disabled selected>Eliga un medio</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

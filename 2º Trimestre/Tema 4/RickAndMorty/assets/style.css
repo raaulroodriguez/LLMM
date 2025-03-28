@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+label {
+  color: red;
+  text-align: center;
+}
+
+.buscar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px auto;
+  width: 20%;
+  padding: 20px;
+}
+
+.buscar button {
+  border: 1px solid black;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.buscar select {
+  border: 1px solid black;
+}
+
+.tabla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 30px;
+}
+
+table {
+  width: 75%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.tablaMasculino {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 30px;
+  background-color: aquamarine;
+}
+
+.tablaFemenino {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 30px;
+  background-color: rgb(243, 146, 162);
+}

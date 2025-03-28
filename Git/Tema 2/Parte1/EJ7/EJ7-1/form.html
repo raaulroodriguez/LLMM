@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina principal para el Ejercicio 6" />
+    <meta name="author" content="Raul Rodriguez" />
+    <meta name="keywords" content="ejercicio, formulario, css, estilo" />
+    <title>Ejercicio 7 Formulario</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <h1>Ejercicio 1</h1>
+        <fieldset>
+          <legend>Datos personales</legend>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Pon tu nombre"
+              size="100"
+            />
+          </div>
+          <div>
+            <label for="edad">Edad:</label>
+            <input
+              type="text"
+              id="edad"
+              name="edad"
+              placeholder="1"
+              size="100"
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Información del comentario</legend>
+          <div>
+            <label for="usuario">Usuario:</label>
+            <input
+              type="text"
+              id="usuario"
+              name="usuario"
+              placeholder="Pon tu usuario"
+              required
+              size="60"
+            />
+          </div>
+          <div>
+            <label for="contraseña">Contraseña:</label>
+            <input
+              type="password"
+              id="contraseña"
+              name="contraseña"
+              placeholder="Introduce una contraseña"
+              required
+              size="60"
+            />
+          </div>
+          <div>
+            <label for="comentario">Comentario:</label>
+            <input
+              type="text"
+              name="comentario"
+              id="comentario"
+              placeholder="Pon tu comentario"
+              size="100"
+            />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Pon tu email"
+              size="100"
+              maxlength="70"
+            />
+          </div>
+          <div>
+            <label for="fehca">Fecha nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" size="100" />
+          </div>
+          <div>
+            <label for="fichero">Introduce un fichero</label>
+            <input type="file" id="fichero" name="fichero" size="100" />
+          </div>
+          <button type="submit">Enviar</button>
+          <button type="reset">Borrar</button>
+        </fieldset>
+        <h1>Ejercicio 2</h1>
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+        <div>
+          <label for="comentario">Comentario:</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            rows="10"
+            cols="35"
+            maxlength="100"
+          ></textarea>
+        </div>
+        <div>
+          <label for="avatar">Seleccione el color de su avatar</label>
+          <input type="color" name="color" id="color" />
+        </div>
+        <button type="submit">Enviar comentario</button>
+        <h1>Ejercicio 3</h1>
+        <div>
+          <label for="comida">Elige tu comida favorita: </label>
+          <select name="comida" id="comida">
+            <option value="ensalada">Ensalada</option>
+            <option value="lentejas">Lentejas</option>
+            <option value="macarrones">Macarrones</option>
+          </select>
+        </div>
+        <button type="submit">Entrar</button>
+        <button type="reset">Borrar</button>
+        <h1>Ejercicio 4</h1>
+        <div>
+          <label for="comida2">Elige tu comida favorita: </label>
+          <input
+            type="checkbox"
+            id="comida2"
+            name="comida2"
+            value="kebab"
+          >Kebab</input>
+          <input
+            type="checkbox"
+            id="comida2"
+            name="comida2"
+            value="ensalda"
+            checked
+          >Ensalada</input>
+          <input
+            type="checkbox"
+            id="comida2"
+            name="comida2"
+            value="hamburguesa"
+          >Hamburguesa</input>
+          <input
+            type="checkbox"
+            id="comida2"
+            name="comida2"
+            value="pizza"
+          >Pizza</input>
+        </div>
+        <div>
+          <label for="pago">Metodo paga:</label>
+          <input
+            type="checkbox"
+            id="pago"
+            name="pago"
+            value="vale"
+          >Vale</input>
+          <input
+            type="checkbox"
+            id="pago"
+            name="pago"
+            value="tarjeta"
+          >Tarjeta</input>
+          <input
+            type="checkbox"
+            id="pago"
+            name="pago"
+            value="cash"
+            checked
+          >Cash</input>
+        </div>
+        <button type="submit">Entrar</button>
+        <button type="reset">Borrar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

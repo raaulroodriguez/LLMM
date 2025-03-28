@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Tabla en HTML</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Buscador de Pokémon</h1>
+      <div class="buscar">
+        <input type="text" id="buscador" placeholder="Buscar Pokémon" />
+        <button id="btn" type="button">Buscar</button>
+      </div>
+      <div class="tabla">
+        <table>
+          <tr>
+            <th>Nombre</th>
+            <th>Imagen</th>
+            <th>Altura</th>
+            <th>Tipos</th>
+          </tr>
+          <tr>
+            <td id="nombre"></td>
+            <td id="imagen"></td>
+            <td id="altura"></td>
+            <td id="tipos"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

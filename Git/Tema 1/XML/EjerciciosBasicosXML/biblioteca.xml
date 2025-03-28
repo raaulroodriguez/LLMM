@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autores>
+            <autor>Gabriel García Márquez</autor>
+        </autores>
+        <ano_de_publicacion>1967</ano_de_publicacion>
+        <genero>Ficcion</genero>
+        <idioma>Español</idioma>
+        <sinopsis>Una obra maestra del realismo mágico que narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo, explorando temas de soledad, poder y destino.</sinopsis>
+        <comentarios>
+            <comentario user="usuario1">Esto es un comentario</comentario>
+            <comentario user="usuario2">Esto es otro comentario</comentario>
+        </comentarios>
+    </libro>
+    <libro>
+        <titulo>Sapiens: De animales a dioses</titulo>
+        <autor>Yuval Noah Harari</autor>
+        <ano_de_publicacion>2011</ano_de_publicacion>
+        <genero>Ciencia</genero>
+        <idioma>Hebreo</idioma>
+        <sinopsis>Un recorrido fascinante por la historia de la humanidad, desde el surgimiento del Homo sapiens hasta el presente, y una reflexión sobre cómo las revoluciones cognitivas, agrícolas y científicas han moldeado el mundo actual.</sinopsis>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <ano_de_publicacion>1949</ano_de_publicacion>
+        <genero>Ficcion</genero>
+        <idioma>Inglés</idioma>
+        <sinopsis>Un clásico distópico que describe un futuro en el que el gobierno totalitario, representado por el Gran Hermano, controla cada aspecto de la vida de los ciudadanos, cuestionando la libertad, la verdad y el poder.</sinopsis>
+    </libro>
+</biblioteca>
