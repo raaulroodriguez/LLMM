@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<html lang="es">
+  <body>
+    <h2>Cartelera de Películas</h2>
+    <table>
+      <tr>
+        <th>Título</th>
+        <th>Director</th>
+        <th>Año</th>
+      </tr>
+      <tr>
+        <td>Interstellar</td>
+        <td>Christopher Nolan</td>
+        <td>2014</td>
+      </tr>
+      <tr>
+        <td>Dune: Parte 2</td>
+        <td>Denis Villeneuve</td>
+        <td>2024</td>
+      </tr>
+    </table>
+  </body>
+</html>

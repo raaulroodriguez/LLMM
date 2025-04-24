@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<html lang="es">
+  <body>
+    <h2>Cartelera de Películas</h2>
+    <table>
+      <tr>
+        <th>Título (Idioma)</th>
+        <th>Director</th>
+        <th>Año</th>
+        <th>Plataforma</th>
+      </tr>
+      <tr>
+        <td>Interstellar
+                                    (ingles)
+                                </td>
+        <td>Christopher Nolan</td>
+        <td>2014</td>
+        <td>netflix</td>
+      </tr>
+      <tr>
+        <td>Dune: Parte 2
+                                    (español)
+                                </td>
+        <td>Denis Villeneuve</td>
+        <td>2024</td>
+        <td>netflix</td>
+      </tr>
+    </table>
+    <ul>
+      <li>Matrix
+                                (frances) -
+                                Lana y Lilly Wachowski -
+                                1999 – 
+                                hbo</li>
+    </ul>
+  </body>
+</html>

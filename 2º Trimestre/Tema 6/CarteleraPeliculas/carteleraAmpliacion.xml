@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="carteleraAmpliacion.xsl"?> 
+<!DOCTYPE cartelera SYSTEM "carteleraAmpliacion.dtd">
+<cartelera>
+    <pelicula plataforma="netflix">
+        <titulo idioma="ingles">Interstellar</titulo>
+        <director>Christopher Nolan</director>
+        <anyo>2014</anyo>
+    </pelicula>
+    <pelicula plataforma="hbo">
+        <titulo idioma="frances">Matrix</titulo>
+        <director>Lana y Lilly Wachowski</director>
+        <anyo>1999</anyo>
+    </pelicula>
+    <pelicula plataforma="netflix">
+        <titulo idioma="español">Dune: Parte 2</titulo>
+        <director>Denis Villeneuve</director>
+        <anyo>2024</anyo>
+    </pelicula>
+</cartelera>
