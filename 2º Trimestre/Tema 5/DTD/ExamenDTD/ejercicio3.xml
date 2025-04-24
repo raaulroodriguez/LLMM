@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM 'ejercicio3.dtd'>
+<alumnos>
+    <alumno num_alumno="A1" altura="176" sexo="hombre">
+        <nombre>Raúl</nombre>
+        <apellidos>Rodríguez Aponte</apellidos>
+        <domicilio>Calle Isaac Peral</domicilio>
+        <telefono de="propio">695 458 457</telefono>
+        <equipo>Morente FC</equipo>
+        <aficiones>
+            <aficion>DTD</aficion>
+            <aficion>JavaScript</aficion>
+        </aficiones>
+        <comentarios>
+            <comentario>Buena gente el tio</comentario>
+        </comentarios>
+        <evaluaciones>
+            <evaluacion numero="primera">9</evaluacion>
+            <evaluacion numero="segunda">2</evaluacion>
+        </evaluaciones>
+    </alumno>
+    <alumno num_alumno="A2" sexo="hombre">
+        <nombre>Ramón</nombre>
+        <apellidos>Martín España</apellidos>
+        <domicilio>Calle Jose Peral</domicilio>
+        <telefono de="madre">623 758 917</telefono>
+        <aficiones>
+            <aficion>Karate</aficion>
+            <aficion>Fiesta</aficion>
+        </aficiones>
+        <comentarios>
+            <comentario>Un tio rarillo</comentario>
+        </comentarios>
+        <evaluaciones>
+        </evaluaciones>
+    </alumno>
+</alumnos>

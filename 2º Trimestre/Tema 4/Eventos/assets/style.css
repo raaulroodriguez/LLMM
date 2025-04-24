@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  height: 1000px;
+}
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.section div {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 633px;
+  height: 333px;
+}
+
+.section div img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}

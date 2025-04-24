@@ -1,0 +1,104 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>La ruleta del aprobado</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=The+Girl+Next+Door"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="ruleta.css" rel="stylesheet" type="text/css" />
+    <script>
+      let imagenes = [
+        "rajoy.png",
+        "leon.png",
+        "manzana.png",
+        "perroSanchez.png",
+      ];
+      let cuadro = [0, 0, 0, 0];
+      let intervaloRuleta = [null, null, null, null];
+      let corriendo = 0;
+      let intervaloSombras;
+      let posicionSombras = [
+        [2, 2],
+        [-2, 2],
+        [-2, -2],
+        [2, -2],
+      ];
+      let posicionActualSombra = 0;
+
+      function ruleta() {
+        if (corriendo == 0) {
+          clearInterval(intervaloSombras);
+          for (i in cuadro) cuadro[i] = Math.floor(Math.random() * 4);
+
+          intervaloRuleta[0] = setInterval(function () {
+            cambiaImagen(0);
+          }, 100);
+          intervaloRuleta[1] = setInterval(function () {
+            cambiaImagen(1);
+          }, 50);
+          intervaloRuleta[2] = setInterval(function () {
+            cambiaImagen(2);
+          }, 10);
+          intervaloRuleta[3] = setInterval(function () {
+            cambiaImagen(3);
+          }, 10);
+
+          corriendo = 4;
+        }
+      }
+
+      function cambiaImagen(x) {
+        if (cuadro[x] >= 3) cuadro[x] = 0;
+        else cuadro[x] = cuadro[x] + 1;
+        document.getElementById("imag" + x).src = imagenes[cuadro[x]];
+      }
+
+      function paraRuleta() {
+        if (corriendo > 0) {
+          for (let i = 0; i < 2 && corriendo > 0; i++) {
+            corriendo = corriendo - 1;
+            clearInterval(intervaloRuleta[corriendo]);
+          }
+
+          if (corriendo < 3) cambiaSombras();
+        }
+      }
+
+      function cambiaSombras() {
+        intervaloSombras = setInterval(circulaSombras, 100);
+      }
+
+      function circulaSombras() {
+        if (posicionActualSombra >= 4) posicionActualSombra = 0;
+        else posicionActualSombra = posicionActualSombra + 1;
+
+        let estilo =
+          posicionSombras[posicionActualSombra][0] +
+          "px " +
+          posicionSombras[posicionActualSombra][1] +
+          "px 5px #FF5050";
+        document.getElementById("imag0").style["boxShadow"] = estilo;
+        document.getElementById("imag1").style["boxShadow"] = estilo;
+        document.getElementById("imag2").style["boxShadow"] = estilo;
+        document.getElementById("imag3").style["boxShadow"] = estilo;
+      }
+    </script>
+  </head>
+  <body onload="cambiaSombras();">
+    <div class="contenedor">
+      <div class="imagenes">
+        <img id="imag3" src="rajoy.png" />
+        <img id="imag2" src="leon.png" />
+        <img id="imag1" src="manzana.png" />
+        <img id="imag0" src="perroSanchez.png" />
+      </div>
+      <div class="botones">
+        <div class="boton" id="iniciar" onclick="ruleta();">Iniciar</div>
+        <div class="boton" id="parar" onclick="paraRuleta();">Parar</div>
+      </div>
+    </div>
+  </body>
+</html>
