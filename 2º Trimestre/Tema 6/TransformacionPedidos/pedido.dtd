@@ -1,0 +1,19 @@
+<!ELEMENT pedido (portatiles, tablets)>
+    <!ELEMENT portatiles (portatil+)>
+    <!ELEMENT portatil (peso, ram, disco, precio)>
+    <!ELEMENT peso (#PCDATA)>
+    <!ELEMENT ram (#PCDATA)>
+    <!ATTLIST ram unidad CDATA #REQUIRED>
+    <!ELEMENT disco (#PCDATA)>
+    <!ATTLIST disco tipo CDATA #REQUIRED>
+    <!ELEMENT precio (#PCDATA)>
+    
+    <!ELEMENT tablets (tablet+)>
+    <!ELEMENT tablet (plataforma, caracteristicas)>
+    <!ELEMENT plataforma (#PCDATA)>
+    <!ELEMENT caracteristicas (memoria, tamanio, bateria)>
+    <!ELEMENT memoria (#PCDATA)>
+    <!ATTLIST memoria medida CDATA #REQUIRED>
+    <!ELEMENT tamanio (#PCDATA)>
+    <!ATTLIST tamanio medida CDATA #REQUIRED>
+    <!ELEMENT bateria (#PCDATA)>
